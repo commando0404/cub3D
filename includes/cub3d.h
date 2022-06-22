@@ -6,7 +6,7 @@
 /*   By: oabdelha <oabdelha@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/14 12:40:40 by oabdelha          #+#    #+#             */
-/*   Updated: 2022/06/22 10:03:26 by oabdelha         ###   ########.fr       */
+/*   Updated: 2022/06/22 10:51:40 by oabdelha         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,8 +76,6 @@ typedef struct s_img
 
 typedef struct s_ray
 {
-	int		tx;
-	int		ty;
 	int		color;
 	double	camera_x;
 	double	raydirx;
@@ -91,7 +89,6 @@ typedef struct s_ray
 	double	pwalldist;
 	int		stepx;
 	int		stepy;
-	int		hit;
 	int		side;
 	int		lineheight_;
 	int		start;
